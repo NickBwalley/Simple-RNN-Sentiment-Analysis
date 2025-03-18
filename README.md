@@ -22,7 +22,7 @@ To get started with the project, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repository-link
+git clone https://github.com/NickBwalley/Simple-RNN-Sentiment-Analysis.git
 cd Deep-Learning-For-NLP/Simple-RNN
 ```
 
@@ -31,7 +31,7 @@ cd Deep-Learning-For-NLP/Simple-RNN
 To maintain a clean environment for dependencies, it's recommended to create a new Conda environment:
 
 ```bash
-conda create -n imdb_sentiment_env python=3.9
+conda create -n imdb_sentiment_env python=3.11.11
 conda activate imdb_sentiment_env
 ```
 
@@ -57,8 +57,8 @@ streamlit run main.py
 
 1. Open your browser and navigate to the displayed **localhost** URL (e.g., `http://localhost:8501`).
 2. Enter your movie review in the provided text box.
-3. Click the **"Predict Sentiment"** button.
-4. The app will classify your review as either **positive** or **negative**.
+3. Click the **"Classify"** button.
+4. The app will classify your review as either `Sentiment`: **positive** or **negative** and the **Prediction score**.
 
 ---
 
